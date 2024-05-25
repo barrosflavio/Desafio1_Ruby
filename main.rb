@@ -1,5 +1,5 @@
-def input(prompt)
-    print "#{prompt}: "
+def input(question)
+    print "#{question}: "
     gets.chomp
 end
 
