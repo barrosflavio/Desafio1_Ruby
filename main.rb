@@ -1,8 +1,10 @@
-print "\nDigite o seu nome: "
-nome = gets.chomp
-print "Digite o seu sobrenome: "
-sobrenome = gets.chomp
-print "Digite sua idade: "
-idade = gets.chomp
+def input(prompt)
+    print "#{prompt}: "
+    gets.chomp
+end
+
+nome = input("Digite o seu nome")
+sobrenome = input("Digite o seu sobrenome")
+idade = input("Digite a sua idade")
 
 puts "\nSeu nome é #{nome} #{sobrenome} e você tem #{idade} anos"
